@@ -1,0 +1,129 @@
+.page{
+	width : 780px;
+	margin : auto;
+	font-size : 16px;
+	font-family : 'Source sans Pro', Calibri, Tahoma, sans-serif;
+	padding : 40px;
+	border : 5px solid #3388CC;
+	border-radius : 10px;
+    box-shadow : 2px 4px 3px black;
+    background-color : #F0F8FF;	
+}
+.infophoto{
+	height: 250px;
+	}
+.info{
+	float : left;
+}
+.photo{
+	float : right;
+}
+.section{
+	margin-bottom : 70px;
+	text-align : justify;
+}
+.sec-left{
+	float: left;
+	font-weight : bold;
+	font-size : 20px;
+}
+.sec-right{
+	margin-left : 150px;
+	margin-top : 37px;
+}
+.sec{
+	float : left;
+    margin-bottom : 70px;
+	text-align : justify;
+}
+strong{
+	font-size : 26px;
+}
+h2{
+	font-size : 28px;
+	color : #3388BB;
+	text-transform : uppercase;
+	border-bottom : 3px solid #3388DD;
+}
+.time-spend{
+	font-weight : normal;
+	font-style : italic;
+	font-size : 16px;
+}
+
+.title{
+	font-weight : bold;
+	font-size : 20px;
+}
+#left-forma p{
+	margin-bottom : 37px;
+}
+#exp-left p{
+	margin-top: 32px;
+}
+h3{
+	border-bottom : 1px solid #C0C0C0;
+    color : #C0C0C0	
+}
+.section:hover{
+	color : #00AA00;
+}
+.sec:hover{
+	color : #0000FF;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+.contact-form{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #031c57;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+	color: 000000;
+}
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+.entry input[type=text]:focus, .entry input[type=email]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+.open-button {
+	background-color: #00007f;
+	color: white;
+	cursor: pointer;
+	opacity: 0.8;
+}
